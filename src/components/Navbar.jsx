@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center py-6 mb-20">
       <div>
         <span className="mx-12 text-4xl flex flex-shrink-0 items-center">
-          <a href="https://vigneshgovindrajportfolio-9usqfqh6q.vercel.app/">
+          <a href="https://mydeveloperportfolio-d2138.firebaseapp.com/">
             <BsPersonWorkspace />
           </a>
         </span>
