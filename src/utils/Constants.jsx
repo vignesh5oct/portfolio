@@ -1,4 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project2.png";
+import project3 from "../assets/projects/project3.2.png";
+import project4 from "../assets/projects/project4.png";
 
 export const NAME = `Vignesh G`;
 
@@ -31,8 +34,30 @@ export const PROJECTS = [
   {
     title: "Netflix Clone using React JS",
     image: project1,
+    url:"",
     description: `Build a responsive and dynamic web application like Netflix using React JS,React Router, Redux, Tailwind CSS. Utilized TMDB API for fetching movie data, ensuring up-to-date content. Integrated Firebase for user authentication.Implemented Search functionality and Dynamic Content Rendering to display a wide range of movies. Following code modularity which involves code increases reusability and maintainability of the code.`,
     technologies: ["Javascript", "React", "Redux", "HTML", "CSS"],
+  },
+  {
+    title: "Admin Dashboard UI",
+    image: project2,
+    url:"https://admindashboardui.firebaseapp.com/",
+    description: `Build dynamic web application using React JS,React Router, SCSS. Utilized Dummy API for fetching data, ensuring up-to-date content.`,
+    technologies: ["Javascript", "React", "HTML", "SCSS"],
+  },
+  {
+    title: "Login Register UI Design",
+    image: project3,
+    url:"https://loginregister-3d1a1.firebaseapp.com/",
+    description: `Build a responsive and dynamic web application like Netflix using React JS,React Router, Redux, Tailwind CSS. Utilized TMDB API for fetching movie data, ensuring up-to-date content. Integrated Firebase for user authentication.Implemented Search functionality and Dynamic Content Rendering to display a wide range of movies. Following code modularity which involves code increases reusability and maintainability of the code.`,
+    technologies: ["Javascript","React", "Redux", "HTML","Styled Components","SCSS"],
+  },
+  {
+    title: "Portfolio Design",
+    image: project4,
+    url:"https://mydeveloperportfolio-d2138.firebaseapp.com/",
+    description: `Build a responsive and dynamic portfolio web application using Tailwind CSS.`,
+    technologies: ["Javascript","React", "Redux", "HTML","Styled Components","SCSS"],
   },
 ];
 

@@ -22,7 +22,7 @@ const Projects = () => {
               className="w-full lg:w-1/2"
             >
               <img
-                className="w-[150px] h-[150px] mb-6 rounded"
+                className="w-[480px] h-[250px] mb-6 rounded"
                 src={project.image}
                 alt={project.title}
               />
@@ -33,7 +33,10 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4 "
             >
-              <h6 className="font-semibold mb-2">{project.title}</h6>
+              <a href={project.url} className="cursor-pointer">
+                <h6 className="font-semibold mb-2">{project.title}</h6>
+              </a>
+
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
