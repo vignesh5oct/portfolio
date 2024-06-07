@@ -1,7 +1,8 @@
 import { INTRO, NAME, ROLE } from "../utils/Constants";
 import { motion } from "framer-motion";
 
-import profile from "../assets/kevinRushProfile.jpg";
+// import profile from "../assets/kevinRushProfile.jpg";
+import profile from "../assets/Frontend.webp";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },

@@ -1,4 +1,5 @@
-import about from "../assets/about.jpg";
+// import about from "../assets/about.jpg";
+import about from "../assets/About.jpeg";
 import { ABOUT_TEXT } from "../utils/Constants";
 import { motion } from "framer-motion";
 
